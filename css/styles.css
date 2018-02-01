@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Orbitron');
+:root {
+    background: rgb(0, 0, 0);
+}
+
+header {
+ color: black;
+background: white;
+ margin-top: 20px;
+ margin-left: 40px;
+ margin-right: 40px;
+ margin-bottom: 0;
+ }
+
+ .header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: Orbitron;
+}
+
+h2 {
+    font-family: Dosis;
+}
+.home {
+    background: white;
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+    font-size: 1.5em;
+    text-align: justify;
+
+}
+
+.home h3 {
+    font-family: Orbitron;
+    border-bottom: solid black;
+}
+
+.home p::first-letter {
+    font-size: 4em;
+    float: left;
+    background: black;
+    color: white;
+    padding: 10px;
+    margin-right: 5px;
+   margin-bottom: 5px;
+   font-weight: bold;
+   border-radius: 10px;
+    
+}
+.navbar {
+    background-color: rgb(98, 120, 243);
+    font-family: Dosis;   
+}
+
+.twitter-timeline {
+    border: solid black;
+}
+
+@media (min-width: 769px) {
+
+ul {
+        list-style-type: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        /* padding: 0; REDUNDANT TAG*/
+        overflow: hidden;
+        background-color: rgb(98, 120, 243);
+        text-align: center;
+    }
+li {
+        float: left;
+    }
+    
+li a {
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+li a:hover {
+        background-color:rgb(139, 0, 0);
+    }
+
+}
+
+.home {
+    padding-left: 20%;
+    padding-right: 20%;
+}

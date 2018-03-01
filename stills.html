@@ -45,23 +45,33 @@
   <div class="home">
       <div class="slideshow">
         <p>
-        <img id="myImg1" src="img/fountain.jpg" alt="Indianapolis" width="300" height="200">
-        <img id="myImg2" src="img/bike.jpg" alt="Tour de France" width="300" height="200">
-        <img id="myImg3" src="img/artheads.jpg" alt="Louisville Speed Art" width="300" height="200">
+        <img id="myImg1" src="img/fountain.jpg" alt="Fake Geyser" width="300" height="300">
+        
+        <img id="myImg2" src="img/bike.jpg" alt="Tour de France in Dusseldorf" width="300" height="300">
+        
+        <img id="myImg3" src="img/artheads.jpg" alt="Louisville Speed Art Museum" width="300" height="300">
         </p>
         <p>
-        <img id="myImg4" src="img/bridge.jpg" alt="Bridge" width="300" height="200">
-        <img id="myImg5" src="img/cargrill.jpg" alt="Car Grill" width="300" height="200">
-        <img id="myImg6" src="img/tigerturtle.jpg" alt="Tiger and Turtle" width="300" height="200">
+        <img id="myImg4" src="img/bridge.jpg" alt="Sherman Minton Bridge" width="300" height="300">
+        
+        
+        <img id="myImg5" src="img/cargrill.jpg" alt="Car Grill" width="300" height="300">
+        
+        
+        <img id="myImg6" src="img/tigerturtle.jpg" alt="Tiger and Turtle" width="300" height="300">
         </p>
         <p>
-        <img id="myImg7" src="img/wheel.jpg" alt="Wheel" width="300" height="200">
-        <img id="myImg8" src="img/band.jpg" alt="Band" width="300" height="200">
-        </p>
+        <img id="myImg7" src="img/wheel.jpg" alt="Wheel" width="300" height="300">
+        
+        
+        <img id="myImg8" src="img/band.jpg" alt="Amon Amarth in Louisville" width="300" height="300">
+        
+        <img id="myImg9" src="img/monument.jpg" alt="Indianapolis Monument" width="300" height="300">
+      </p>
     </div>
 <!-- The Modal -->
 <div id="myModal" class="modal">
-  <span class="close">X</span>
+  <span class="close">CLOSE</span>
   <img class="modal-content" id="img01">
   <div id="caption"></div>
 </div>
@@ -76,6 +86,7 @@ var img5 = document.getElementById('myImg5');
 var img6 = document.getElementById('myImg6');
 var img7 = document.getElementById('myImg7');
 var img8 = document.getElementById('myImg8');
+var img9 = document.getElementById('myImg9');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 
@@ -121,7 +132,11 @@ img8.onclick = function(){
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
 }
-
+img9.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
 
 
 

@@ -40,7 +40,7 @@ h2 {
     margin-top: 0px;
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     padding-top: 20px;
     font-size: 1.3em;
     text-align: justify;
@@ -93,16 +93,26 @@ li a:hover {
 /* slideshow */
 
 .slideshow {
+ padding: .5vw;
+ font-size: 0;
+ display: -ms-flexbox;
+ -ms-flex-wrap: wrap;
+ -ms-flex-direction: column;
+ -webkit-flex-flow: row wrap; 
+ flex-flow: row wrap; 
+ display: -webkit-box;
  display: flex;
- flex-direction: row;
- align-items: flex-start;
- margin-left: 5%;
- margin-right: 5%;
- margin-bottom: 5%;
+ justify-content: space-evenly;
 }
+.slideshow div img { 
+    width: 300px; 
+    height: auto; 
+  }
 
 .slideshow img {
     padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 
@@ -282,5 +292,27 @@ li a {
     text-decoration: none;
     color: white;
     font-family: Orbitron;
-    font-size: 1vw;
+    font-size: 1.4vw;
+    padding-left: 10px;
+    padding-top: 40px;
   }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+#socialm {
+    padding-top: 5px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+#socialm img {
+    height: 30px;
+    text-decoration: none;
+}
+
+.no_underline {
+    text-decoration: none;
+}

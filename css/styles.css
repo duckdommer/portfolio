@@ -90,6 +90,47 @@ li a:hover {
     background-color:rgb(180, 160, 253);
 }
 
+/* Folders in Resume */
+
+.homeres {
+    background: white;
+    margin-top: 0px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+.rescontainer {
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+.tab{
+    margin: 0 auto 0 0;
+    background-color: rgb(241, 217, 107);
+    color: black;
+    border-radius: 25px 25px 0 0;
+    width: auto;
+    font-family: Dosis;
+    max-width: 300px;
+    text-align: center;
+}
+
+.rescontainer p {
+    margin: 0;
+}
+
+.folder1 {
+    margin: 0 auto;
+    background-color: rgb(241, 217, 107);
+    color: black;
+    font-family: Dosis;
+    
+}
+
 /* slideshow */
 
 .slideshow {

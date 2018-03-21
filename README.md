@@ -1,0 +1,1 @@
+# portfolio My project is a portfolio page. It showcases my video and still photography work. I used java script to create a slideshow for my still work. It is responsive. The pictures on the still section will reduce to one column on a mobile phone.

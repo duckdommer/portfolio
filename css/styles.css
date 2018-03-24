@@ -240,6 +240,16 @@ h2 {
 
 /* end slideshow */
 
+/*contact slide*/
+.contact {
+    border: solid black;
+    padding: 10% 40% 40% 10%;
+    font-family: Dosis; 
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+
 @media (min-width: 769px) {
 
 .tophome {
@@ -268,6 +278,40 @@ h2 {
 .navbar li a {
     font-size: 1.4vw;
 }
+
+/* video page rows */
+.topvideo {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.topvideo iframe {
+    padding: 20px;
+}
+
+.demovideos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+
+.natpks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+    .longform {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 
 }
 

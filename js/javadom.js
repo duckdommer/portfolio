@@ -66,7 +66,7 @@ img9.onclick = function(){
 // closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When you click on (x) the modal closes
+// When you click on (close) the modal closes
 span.onclick = function() {
     modal.style.display = "none";
 }
